@@ -30,3 +30,5 @@ Un ejemplo de esto podría ser grid-area: 1 / 1 / 3 / 6;.
 - CSS Grid también introduce una nueva medida, la fracción fr. Cada unidad fr asigna una porción del espacio disponible. Por ejemplo, si dos elementos están establecidos a 1fr y 3fr respectivamente el espacio se divide en 4 porciones iguales; el primer elemento ocupa 1/4 del espacio y el segundo elemento los 3/4 restantes.
 
 - Cuando algunas columnas son establecidas en píxeles, porcentajes o ems, cualquier otra columna establecida con fr dividirá el espacio restante.
+
+- Grid-template es una propiedad abreviada que combina grid-template-rows y grid-template-columns.Por ejemplo, grid-template: 50% 50% / 200px; creará una cuadrícula con dos filas que ocuparán el 50% del alto cada una, y una columna que será 200 píxeles de ancho.
