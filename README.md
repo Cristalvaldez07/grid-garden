@@ -19,5 +19,9 @@ Un ejemplo de esto podría ser grid-area: 1 / 1 / 3 / 6;.
 
 - Esto ha sido establecido con las propiedades grid-template-columns: 20% 20% 20% 20% 20%; y grid-template-rows: 20% 20% 20% 20% 20%;. Cada propiedad tiene cinco valores que crean cinco columnas, cada una establecida al 20% de la anchura total del jardín.
 
+- Especificar un puñado de columnas con la misma anchura puede ser aburrido. Afortunadamente hay una función repeat que te ayudará con eso.
 
+- Por ejemplo, previamente hemos definido cinco columnas al 20% de anchura mediante grid-template-columns: 20% 20% 20% 20% 20%;. Esto puedes simplificarse como grid-template-columns: repeat(5, 20%);
+
+- Usando grid-template-columns con la función repeat, crea ocho columnas, cada una con una anchura del 12.5%. 
 
